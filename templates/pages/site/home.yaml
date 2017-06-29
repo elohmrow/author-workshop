@@ -1,0 +1,7 @@
+dialog: author-workshop:pages/default
+renderType: site
+type: author-workshop-home
+title: Author Workshop Home 
+areas:
+  footer:
+    editable: true

@@ -1,0 +1,5 @@
+dialog: author-workshop:text
+description: Enter text
+renderType: freemarker
+title: Text
+templateScript: /author-workshop/templates/components/text.ftl

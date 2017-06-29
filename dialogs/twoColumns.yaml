@@ -1,0 +1,14 @@
+actions: !include /author-workshop/dialogs/includes/actions.yaml
+form:
+  tabs:
+    - name: tabMain
+      label: Two Columns dialog
+      fields:
+        - name: titleLeft
+          label: left title
+          description: enter the left title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: titleRight
+          label: right title
+          description: enter the right title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition

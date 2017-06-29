@@ -1,0 +1,38 @@
+'author-workshop': 
+  'templates': 
+    'class': 'info.magnolia.module.site.templates.ReferencingPrototypeTemplateSettings'
+    'prototypeId': 'author-workshop:pages/prototype'
+    'availability': 
+      'templates': 
+        'home': 
+          'id': 'author-workshop:pages/site/home'
+        'default': 
+          'id': 'author-workshop:pages/site/default'
+        'special': 
+          'id': 'author-workshop:pages/site/special'
+        'contact': 
+          'id': 'author-workshop:pages/site/contact'
+  'theme': 
+    'name': 'author-workshop-theme'
+  'i18n': 
+    'class': 'info.magnolia.cms.i18n.DefaultI18nContentSupport'
+    'enabled': true
+    'fallbackLocale': 'en'
+    'locales': 
+      'en': 
+        'country': ''
+        'enabled': true
+        'language': 'en'
+      'de': 
+        'country': ''
+        'enabled': true
+        'language': 'de'
+  'mappings': 
+    'website': 
+      'URIPrefix': ''
+      'handlePrefix': '/author-workshop'
+      'repository': 'website'
+  'parameters': 
+    'google-maps-magnolia-api-key': 'AIzaSyC3lxvDE_XkXkF-BAIU50JtOPyIP5M20d8'
+
+

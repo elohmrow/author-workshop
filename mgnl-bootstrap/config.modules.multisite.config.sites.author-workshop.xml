@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:jcrfn="http://www.jcp.org/jcr/xpath-functions/1.0" xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mgnl="http://www.magnolia.info/jcr/mgnl" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" sv:name="author-workshop">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:node sv:name="templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.module.site.templates.ReferencingPrototypeTemplateSettings</sv:value>
+    </sv:property>
+    <sv:property sv:name="prototypeId" sv:type="String">
+      <sv:value>author-workshop:pages/prototype</sv:value>
+    </sv:property>
+    <sv:node sv:name="availability">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:node sv:name="templates">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:node sv:name="home">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="id" sv:type="String">
+            <sv:value>author-workshop:pages/site/home</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="default">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="id" sv:type="String">
+            <sv:value>author-workshop:pages/site/default</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="special">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="id" sv:type="String">
+            <sv:value>author-workshop:pages/site/special</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="contact">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:contentNode</sv:value>
+          </sv:property>
+          <sv:property sv:name="id" sv:type="String">
+            <sv:value>author-workshop:pages/site/contact</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="theme">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="name" sv:type="String">
+      <sv:value>author-workshop-theme</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="i18n">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="class" sv:type="String">
+      <sv:value>info.magnolia.cms.i18n.DefaultI18nContentSupport</sv:value>
+    </sv:property>
+    <sv:property sv:name="enabled" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="fallbackLocale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="locales">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:node sv:name="en">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="de">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:contentNode</sv:value>
+        </sv:property>
+        <sv:property sv:name="country" sv:type="String">
+          <sv:value />
+        </sv:property>
+        <sv:property sv:name="enabled" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="language" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mappings">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:node sv:name="website">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:contentNode</sv:value>
+      </sv:property>
+      <sv:property sv:name="URIPrefix" sv:type="String">
+        <sv:value />
+      </sv:property>
+      <sv:property sv:name="handlePrefix" sv:type="String">
+        <sv:value>/author-workshop</sv:value>
+      </sv:property>
+      <sv:property sv:name="repository" sv:type="String">
+        <sv:value>website</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="parameters">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="google-maps-magnolia-api-key" sv:type="String">
+      <sv:value>AIzaSyC3lxvDE_XkXkF-BAIU50JtOPyIP5M20d8</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
+

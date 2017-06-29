@@ -1,0 +1,6 @@
+dialog: author-workshop:pages/default
+renderType: site
+title: Contact Page
+templateScript: /author-workshop/templates/pages/site/contact.ftl
+areas:
+  main:

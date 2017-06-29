@@ -1,0 +1,9 @@
+TODO
+==========
+
+N.B.: *not* best practices for now.
+
+- fix docs https://wiki.magnolia-cms.com/display/AuthorTraining55/%5BCourse%5D+Magnolia+Authoring?showComments=true
+- add AWS image: must have author and public
+- figure out jquery loading issue (for now hardcoded into <head> due to a problem with bootstrap)
+- consolidate / clean up where appropriate

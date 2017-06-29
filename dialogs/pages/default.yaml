@@ -1,0 +1,16 @@
+actions: !include /author-workshop/dialogs/includes/actions.yaml
+form:
+  tabs:
+    - name: tabMain
+      label: Default Page Dialog
+      fields:
+        - name: title
+          label: Title
+          type: String
+          required: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: abstract
+          label: Abstract
+          rows: 5
+          required: false
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition

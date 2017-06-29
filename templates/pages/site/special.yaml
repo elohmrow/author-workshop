@@ -1,0 +1,19 @@
+dialog: author-workshop:pages/default
+renderType: site
+title: Training Special Page
+templateScript: /author-workshop/templates/pages/site/mainSpecial.ftl
+areas:
+  main:
+    templateScript: /author-workshop/templates/pages/site/areas/specialArea.ftl
+    parameters:
+      divClass: col-sm-9
+  side:
+    type: list
+    templateScript: /author-workshop/templates/pages/site/areas/specialArea.ftl
+    parameters:
+      divClass: col-sm-3
+    availableComponents:
+      mte-linkList:
+        id: mtk:components/linkList
+      mte-textImage:
+        id: mtk:components/textImage

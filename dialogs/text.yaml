@@ -1,0 +1,10 @@
+actions: !include /author-workshop/dialogs/includes/actions.yaml
+form:
+  tabs:
+    - name: tabMain
+      label: Text Dialog
+      fields:
+        - name: text
+          label: text
+          description: enter some text
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition

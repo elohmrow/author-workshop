@@ -1,0 +1,5 @@
+dialog: author-workshop:textImage
+description: Enter text and upload image
+renderType: freemarker
+title: Text & Image
+templateScript: /author-workshop/templates/components/textImage.ftl

@@ -1,0 +1,38 @@
+templateScript: /author-workshop/templates/pages/site/main.ftl
+areas: 
+  navigation: 
+    createAreaNode: false
+    templateScript: /author-workshop/templates/pages/site/areas/navigationArea.ftl
+    type: noComponent
+  main:
+    type: list
+    availableComponents: 
+      twoColumns: 
+        id: author-workshop:components/twoColumns
+      mte-linkList: 
+        id: mtk:components/linkList
+      mte-textImage: 
+        id: mtk:components/textImage
+      bootstrap-carousel:
+        id: bootstrap-carousel-magnolia:components/bootstrapCarousel
+      google-maps:
+        id: google-maps-magnolia:components/google-maps
+      google-directions:
+        id: google-maps-magnolia:components/google-directions
+  featured-cards:
+    type: list
+    availableComponents: 
+      featureCards: 
+        id: featured-cards-magnolia:components/featuredCards
+  footer: 
+    editable: false
+    templateScript: /author-workshop/templates/pages/site/areas/footerArea.ftl
+    type: list
+    availableComponents: 
+      mte-linkList: 
+        id: mtk:components/linkList
+      text: 
+        id: author-workshop:components/text
+    inheritance: 
+      components: all
+      enabled: true
